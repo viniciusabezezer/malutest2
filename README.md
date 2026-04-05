@@ -1,1 +1,194 @@
-# malutest2
+<!DOCTYPE html>
+
+<html lang="pt-BR"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Versão Final para GitHub Pages | Painel do Colaborador</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-dim": "#d9dadb",
+                        "surface-container-low": "#f3f4f5",
+                        "outline-variant": "#c2c6d4",
+                        "on-background": "#191c1d",
+                        "inverse-on-surface": "#f0f1f2",
+                        "tertiary-fixed": "#ffe25a",
+                        "on-primary-fixed": "#001a40",
+                        "primary": "#0056B3",
+                        "surface-variant": "#e1e3e4",
+                        "on-surface": "#191c1d",
+                        "on-error": "#ffffff",
+                        "primary-container": "#0056b3",
+                        "surface-container-lowest": "#ffffff",
+                        "on-secondary-container": "#007431",
+                        "secondary-fixed": "#85fb9b",
+                        "error-container": "#ffdad6",
+                        "on-secondary": "#ffffff",
+                        "surface-bright": "#f8f9fa",
+                        "inverse-primary": "#acc7ff",
+                        "on-primary-container": "#bbd0ff",
+                        "surface-container": "#edeeef",
+                        "inverse-surface": "#2e3132",
+                        "surface": "#f8f9fa",
+                        "secondary": "#006e2e",
+                        "error": "#ba1a1a",
+                        "on-surface-variant": "#424752",
+                        "on-tertiary-fixed-variant": "#534600",
+                        "on-tertiary": "#ffffff",
+                        "primary-fixed-dim": "#acc7ff",
+                        "tertiary-fixed-dim": "#e5c500",
+                        "surface-tint": "#115cb9",
+                        "surface-container-highest": "#e1e3e4",
+                        "outline": "#727784",
+                        "on-error-container": "#93000a",
+                        "secondary-fixed-dim": "#69de81",
+                        "secondary-container": "#85fb9b",
+                        "on-primary-fixed-variant": "#004491",
+                        "surface-container-high": "#e7e8e9",
+                        "tertiary-container": "#c6aa00",
+                        "on-secondary-fixed": "#002109",
+                        "tertiary": "#6e5e00",
+                        "on-secondary-fixed-variant": "#005321",
+                        "on-tertiary-container": "#4b3f00",
+                        "on-tertiary-fixed": "#211b00",
+                        "background": "#f8f9fa",
+                        "on-primary": "#ffffff",
+                        "primary-fixed": "#d7e2ff"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.5rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "2xl": "1.5rem",
+                        "full": "9999px"
+                    },
+                    "fontFamily": {
+                        "headline": ["Plus Jakarta Sans"],
+                        "body": ["Plus Jakarta Sans"],
+                        "label": ["Plus Jakarta Sans"]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #f8f9fa;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface min-h-screen flex flex-col">
+<header class="fixed top-0 w-full z-50 bg-white/80 backdrop-blur-md shadow-sm flex items-center justify-between px-6 py-4">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-primary-container flex items-center justify-center overflow-hidden">
+<img alt="School Logo" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBsxqh3cTPJJ-hpx4iQWlzk9qz-2L7HkMgoKuL3lsFjk5oKVLprJuS1oD_a497-LRFFqyixYCx9QRSURswCkm8p8ba_h832KLXyisV8ZT7XSd6Rfy_1aCaIzS7usF8kC8mK3QwzVgupbTilh8NMfdiZrTuHvWjng0hXoa-Bdvj99l_8f7_0nSatA6Wenq-1ewuy9VKifv3cQSlvXZ1TDPjqDa7X9cbRWWmp3jRpso1y4fpW2eISMxkvpND1OTqtLJs2dDbJ0gw63WQ"/>
+</div>
+<span class="font-bold text-lg tracking-tight text-primary">EEMTI Maria Luiza</span>
+</div>
+<div class="flex gap-4">
+<span class="material-symbols-outlined text-outline hover:text-primary transition-all cursor-pointer">share</span>
+<span class="material-symbols-outlined text-outline hover:text-primary transition-all cursor-pointer">account_circle</span>
+</div>
+</header>
+<main class="flex-grow pt-24 pb-12 px-6 max-w-md mx-auto w-full">
+<section class="flex flex-col items-center text-center mb-10">
+<div class="relative mb-6">
+<div class="w-28 h-28 rounded-full p-1 bg-gradient-to-tr from-primary to-secondary">
+<div class="w-full h-full rounded-full bg-surface p-1">
+<img alt="School Main Entrance" class="w-full h-full rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBMJYwu0qeVs4ZEi0J-nnaaeG5ypHMNlAScfZnxnj17srM7ub7Jpt-83Cx7-Sa8bNFEnloZEGxwA8FU5Zae_qitbxyCLVs1WQ_CIbyLS83k694r0HJwOQ132_KtTOqekODrrfyxc7ZVj2QoaIkmcftja5BHSAKQbk-g5u8fBveSvmd4IC2Tol9LLL9jTrNyXG979GOIaI6_h_ChWEiL8mg269O5Z3IVdwkyqx7khJ9z038Oa8mnx7kwLaWxjnd6xg7vFrsud3S9ghs"/>
+</div>
+</div>
+<div class="absolute -bottom-1 -right-1 bg-tertiary-fixed text-on-tertiary-fixed px-3 py-1 rounded-full text-[10px] font-bold tracking-wider shadow-sm">
+                PARACURU, CE
+            </div>
+</div>
+<h1 class="text-2xl font-extrabold text-on-surface tracking-tight leading-tight mb-2">
+            Painel do Colaborador
+        </h1>
+<p class="text-on-surface-variant text-sm font-medium opacity-80">
+            Acesso para Professores e Coordenadores
+        </p>
+</section>
+<nav class="space-y-4">
+<a class="group flex items-center p-4 bg-primary-container text-white rounded-2xl shadow-lg shadow-primary/20 hover:scale-[1.02] active:scale-[0.98] transition-all duration-200" href="#">
+<div class="w-12 h-12 flex items-center justify-center rounded-xl bg-white/20 text-white">
+<span class="material-symbols-outlined">edit_note</span>
+</div>
+<span class="ml-4 font-bold">Registro de Ocorrência</span>
+<span class="material-symbols-outlined ml-auto text-white/60">arrow_forward</span>
+</a>
+<a class="group flex items-center p-4 bg-surface-container-lowest rounded-2xl shadow-sm border border-outline-variant hover:border-primary hover:bg-primary-fixed transition-all duration-200" href="#">
+<div class="w-12 h-12 flex items-center justify-center rounded-xl bg-surface-container-high text-on-surface-variant group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined">history_edu</span>
+</div>
+<span class="ml-4 font-bold text-on-surface">Consulta de Histórico</span>
+<span class="material-symbols-outlined ml-auto text-outline-variant group-hover:text-primary">chevron_right</span>
+</a>
+<a class="group flex items-center p-4 bg-surface-container-lowest rounded-2xl shadow-sm border border-outline-variant hover:border-primary hover:bg-primary-fixed transition-all duration-200" href="#">
+<div class="w-12 h-12 flex items-center justify-center rounded-xl bg-surface-container-high text-on-surface-variant group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined">bar_chart</span>
+</div>
+<span class="ml-4 font-bold text-on-surface">Relatórios Pedagógicos</span>
+<span class="material-symbols-outlined ml-auto text-outline-variant group-hover:text-primary">chevron_right</span>
+</a>
+<a class="group flex items-center p-4 bg-surface-container-lowest rounded-2xl shadow-sm border border-outline-variant hover:border-primary hover:bg-primary-fixed transition-all duration-200" href="#">
+<div class="w-12 h-12 flex items-center justify-center rounded-xl bg-surface-container-high text-on-surface-variant group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined">calendar_month</span>
+</div>
+<span class="ml-4 font-bold text-on-surface">Calendário Escolar</span>
+<span class="material-symbols-outlined ml-auto text-outline-variant group-hover:text-primary">chevron_right</span>
+</a>
+<a class="group flex items-center p-4 bg-surface-container-lowest rounded-2xl shadow-sm border border-outline-variant hover:border-primary hover:bg-primary-fixed transition-all duration-200" href="#">
+<div class="w-12 h-12 flex items-center justify-center rounded-xl bg-surface-container-high text-on-surface-variant group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined">contact_support</span>
+</div>
+<span class="ml-4 font-bold text-on-surface">Fale com a Gestão</span>
+<span class="material-symbols-outlined ml-auto text-outline-variant group-hover:text-primary">chevron_right</span>
+</a>
+<div class="grid grid-cols-2 gap-4 mt-8">
+<a class="flex flex-col items-center justify-center p-6 bg-surface-container rounded-2xl hover:bg-primary-fixed transition-colors duration-200 group" href="#">
+<span class="material-symbols-outlined text-3xl mb-2 text-on-surface-variant group-hover:text-primary">group</span>
+<span class="text-xs font-bold uppercase tracking-widest text-on-surface-variant">Intranet</span>
+</a>
+<a class="flex flex-col items-center justify-center p-6 bg-surface-container rounded-2xl hover:bg-primary-fixed transition-colors duration-200 group" href="#">
+<span class="material-symbols-outlined text-3xl mb-2 text-on-surface-variant group-hover:text-primary">mail</span>
+<span class="text-xs font-bold uppercase tracking-widest text-on-surface-variant">E-mail Edu</span>
+</a>
+</div>
+</nav>
+<div class="mt-12 p-6 rounded-2xl bg-gradient-to-br from-primary to-primary-container text-white overflow-hidden relative">
+<div class="relative z-10">
+<p class="text-[10px] font-bold uppercase tracking-widest opacity-80 mb-2">Parceria Institucional</p>
+<h3 class="text-lg font-bold leading-tight">Secretaria da Educação do Estado do Ceará</h3>
+</div>
+<div class="absolute -right-4 -bottom-4 w-24 h-24 bg-secondary opacity-20 rounded-full blur-2xl"></div>
+<div class="absolute -right-2 -top-2 w-16 h-16 bg-tertiary opacity-10 rounded-full blur-xl"></div>
+</div>
+</main>
+<footer class="w-full py-12 px-6 flex flex-col items-center gap-6 max-w-md mx-auto text-center">
+<div class="w-16 h-16 opacity-40 grayscale contrast-125 mb-2">
+<img alt="Ceará State Logo" class="w-full h-full object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAVCt_G7Pt-aG1-lTsXMDM_bNB9rEDVUJXw6EiJ7iXjwNWKUAdXR5Bk4Hsx7DTdXt14OsBtaxpid414sEFqNOqUPz1c429QSQw5GRiygB4oFBhXI2skPvI0-Bs_hlDzIGz_8yGKaBfw0heQIqOsO19tIF6SUDrN3Nn4RqGqksS8XJgX9Mg7hJfYb_79wX8he3_w9ZVeh8bLQxN78eEMJQk3S35keULHqt3YDpjA6aB8Yq0iZnB86SFb_onJztgGvUR9qJwYfGkcFkM"/>
+</div>
+<p class="text-sm tracking-wide text-slate-500">
+        © 2024 EEMTI Professora Maria Luiza Saboia Ribeiro | Governo do Estado do Ceará
+    </p>
+<div class="flex gap-6">
+<a class="text-slate-400 hover:text-primary transition-colors text-xs font-semibold" href="#">Instagram</a>
+<a class="text-slate-400 hover:text-primary transition-colors text-xs font-semibold" href="#">Facebook</a>
+<a class="text-slate-400 hover:text-primary transition-colors text-xs font-semibold" href="#">Portal do Governo</a>
+</div>
+<div class="mt-4 h-1 w-12 bg-surface-container-highest rounded-full"></div>
+</footer>
+</body></html>
